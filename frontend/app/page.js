@@ -43,7 +43,7 @@ export default function Home() {
 
   return (
     <main className="flex justify-center items-center flex-col h-screen">
-      <h1 className="text-3xl font-bold mb-6">{clicks} click</h1>
+      <h1 className="text-3xl font-bold mb-6">{clicks} clicks</h1>
       <button
         onClick={handleClick}
         className="w-32 h-32 bg-gradient-to-r from-pink-500 to-red-500 text-white font-bold rounded-full shadow-lg hover:from-pink-600 hover:to-red-600 hover:shadow-xl transform transition-transform duration-300 ease-in-out hover:scale-110 active:scale-95"
